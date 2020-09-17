@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */
+.body-div{margin: 0 auto; position: relative;width: 1024px;height: 768px;background-image: url(../img/bg12.jpg);background-repeat: no-repeat;background-position:left top;background-size: 1024px 768px;}
+
+p{font-family: "楷体";font-size: 22px;color:#C09539;}
+	
+h1{font-family: "楷体"}
+	
+div.biaoti{position: absolute;top:50px;left:230px;}
+	
+div.box{position: absolute;top: 150px;left: 150px; width: 750px;height: 430px; background-image: url("../img/border.png");background-size: cover;background-position: center;/*border-image-source: url(../img/border.png);border-image-slice:1000 145 1000 145;border-image-width: 25px;border-image-slice: stretch;*/}
+	
+div.a{position: absolute;/*top: 150px;left: 200px;*/left:75px;top:40px;width: 300px;height: 150px; background-color: rgba(45,201,215,0.30);border-r:1px solid #FFFFFF;}
+	
+div.b{position: absolute;/*top: 150px;left: 500px;*/left:375px;top:40px;width: 300px;height: 150px; background-color: rgba(45,201,215,0.30);}
+	
+div.c{position: absolute;/*top: 300px;left: 200px;*/top:190px;left:75px;width: 300px;height: 150px; background-color: rgba(45,201,215,0.30);}
+	
+div.d{position: absolute;/*top: 300px;left: 500px;*/top:190px;left:375px;width: 300px;height: 150px; background-color: rgba(45,201,215,0.30);}
+	
+.a1{position: absolute;top: 550px; left: 350px;width: 150px;height: 75px; background-color: aliceblue;background-image: url(../img/village.jpg);background-size: cover;background-position: center;}
+	
+.b2{position: absolute;top: 625px;left: 350px;width: 150px;height: 75px; background-color: aliceblue;background-image: url(../img/shier.jpg);background-size: cover;background-position: center;}
+	
+.c3{position: absolute;top: 550px;left: 500px;width: 150px;height: 75px; background-color: aliceblue;background-image: url(../img/meihua.jpg);background-size: cover;background-position: center;}
+	
+.d4{position: absolute;top: 625px;left: 500px;width: 150px;height: 75px; background-color: aliceblue;background-image: url(../img/mifenghou.jpg);background-size: cover;background-position: center;}
+	
+/*div.X{position: absolute; left: 10px;top:30px; width: 100px;height: 100px; background-image: url(../img/allright.png);background-size: 200%;background-position: center; z-index: 1;opacity: 0;}*/
+	
+.nextpage{width: 150px; height: 80px; margin-top: 95px; background: url("../img/blackNext.png") -4px 0px no-repeat; background-size: cover; position: absolute;top:500px;left: 700px;}
+	
+.nextpage a{display: block; width: 120px; height: 56px; position: absolute; top: 12px; left: 14px;}

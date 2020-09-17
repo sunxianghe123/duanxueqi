@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+
+.body-div{margin: 0 auto; position: relative;width: 1024px;height: 768px;background-image: url(../img/bg11.jpg);background-repeat: no-repeat;background-position:left top;background-size: 1024px 768px;}
+
+		p{font-family: "楷体";font-size: 22px;color:#C09539;}
+		
+		h1{font-family: "楷体"; font-size: 50px;}
+		
+		div.biaoti{position: absolute;top:50px;left:200px;}
+		
+		div.mulu{position: absolute; height: 300px; width: 150px; top:150px;left: 220px;background-image: url("../img/elf_1.png");background-size: cover;text-align: center;}
+		
+		div p{font-size: 40px;}
+	
+		div p.main{font-size: 26px; color:#1A1414;}
+		
+		div.img{position: absolute;width: 300px;height: 400px;top: 350px;left:0px;background-image: url("../img/figure1.png");background-size: cover;}
+		
+		div.zhengwen{position: absolute;top: 150px;left: 380px;width: 500px;height: 500px; background-color:rgba(255,227,181,0.40);overflow: auto;}
+		
+		.nextpage{width: 150px; height: 80px;background: url("../img/blackNext.png") -4px 0px no-repeat; background-size: cover; position: absolute;top:660px;left: 830px;}
+	
+		.nextpage a{display: block; width: 120px; height: 56px; position: absolute; top: 12px; left: 14px;}
+		
+		.back{width: 200px;height: 100px;text-align: center;background: url("../img/backIndex1.png") -50px -20px no-repeat;background-size: 150% 150%;position:absolute;left: 800px;top:20px;}
+		
+		.back a{display: block;width: 150px;height: 60px;position: absolute;top: 22px;left: 25px;}
+	
+		span{padding-left: 2em;}
+		
+		.lastpage{width: 150px;height: 80px;background:url("../img/blackLast.png") -4px 0px no-repeat;background-size: cover;position: absolute;
+		top: 665px;left: 690px;}
+		
+		.lastpage a{display: block;width: 120px;height: 60px;position: absolute;top: 11px;left: 12px;}
